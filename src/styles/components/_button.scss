@@ -1,0 +1,42 @@
+//big button
+.big-button {
+  background-color: $purple;
+  border: none;
+  border-bottom: .6rem solid darken($purple, 10%);
+  font-weight: bold;
+  font-size: $l-size;
+  color: whitesmoke;
+  width: 100%;
+  padding: 2.4rem;
+  margin-bottom: $xl-size;
+
+}
+
+.big-button:disabled {
+  opacity: .5;
+}
+
+.big-button:focus {
+  border-bottom: none;
+}
+
+// button
+
+.button {
+  background-color: $purple;
+  border: none;
+  border-bottom: .3rem solid darken($purple, 10%);
+  font-weight: 500;
+  padding: $s-size;
+}
+
+.button--link {
+  background: none;
+  border:none;
+  color:$offWhite;
+  padding: 0;
+}
+
+.button--modal{
+  color:black;
+}

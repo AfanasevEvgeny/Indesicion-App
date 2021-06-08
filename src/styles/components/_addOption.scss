@@ -1,0 +1,13 @@
+.add-option {
+  display: flex;
+  padding: $m-size;
+
+}
+
+.add-option__input {
+  flex-grow: 1;
+  background-color: $darkBlue;
+  color: $offWhite;
+  border: none;
+  padding: $s-size;
+}
